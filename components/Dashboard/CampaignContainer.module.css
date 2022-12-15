@@ -1,0 +1,65 @@
+.campaigns_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  padding: 40px;
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 20px;
+  border: 1px #888888 solid;
+  box-shadow: 5px 10px #888888;
+}
+.campaign_inner_container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.statColumn {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 60%;
+}
+.statistic h1 {
+  font-size: 20px;
+  text-align: center;
+  margin: 0;
+  font-weight: normal;
+  margin-bottom: 6px;
+}
+.statistic h2 {
+  font-size: 15px;
+  text-align: center;
+  margin: 0;
+  font-weight: normal;
+}
+.campaign_container {
+  cursor: pointer;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-evenly; */
+  align-items: center;
+  padding: 40px;
+  width: 100%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  border: 1px #888888 solid;
+  box-shadow: 5px 10px #888888;
+}
+.campaign_name {
+  font-size: 20px;
+}
+
+.campaigns_header {
+  font-size: 50px;
+  width: 80%;
+  margin: auto;
+}

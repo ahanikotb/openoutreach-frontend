@@ -1,0 +1,40 @@
+.campaign_stats_container {
+  width: 80vw;
+  padding: 40px;
+  /* margin: auto; */
+}
+.campaign_stats_container_inner {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.campaign_card {
+  border-radius: 20px;
+  border: 1px #888888 solid;
+  box-shadow: 5px 10px #888888;
+  display: flex;
+  flex-direction: row;
+  padding: 5vh;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: 0.7s;
+}
+.campaign_card:hover {
+  width: 32vh;
+  height: 32vh;
+}
+.backgroundAdd svg {
+  /* position: relative; */
+
+  /* bottom: 50vh; */
+  /* left: 50vh; */
+  z-index: -1;
+  color: #888888;
+  margin: auto;
+}
